@@ -9,11 +9,19 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>सरस्वती पूजा 2021, बनिगामा </title>
+    <style>
+        .card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0.6rem !important;
+}
+    </style>
   </head>
   <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-sm-12">
                 <div class="jumbotron">
                     <h2 class="text-danger">
                         <strong>सरस्वती पूजा</strong> <span>2021</span><strong>, बनिगामा</strong>
@@ -44,25 +52,23 @@
                         <p class="lead">जय माँ शारदे | </p>
 
 
-                        <strong class="text-danger lead">चंदा के लिए बैंक डिटेल्स -</strong>
+                        
                 </div>
             </div>
             <div class="col-sm-4"></div>
 
             <div class="col-sm-4">
                 <p class="strong text-danger">अपना सहयोग देने के लिए QR कोड को स्कैन करें या नीचे दिए गए UPI ID पर सहयोग भेजें | </p>
+                <p class="strong text-danger">Account Name - Mihir Kumar Thakur</p>
                 <div class="card">
-                    <img class="card-img-top" src="https://geotest.s3-accelerate.amazonaws.com/Screenshot_20210122-132745_Airtel.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="https://geotest.s3-accelerate.amazonaws.com/Screenshot_20210122-132745_Airtel.jpg" alt="Card image cap">
                   
-                    <div class="card-body">
-                      <h5 class="card-title">Mihir Kumar Thakur</h5>
-                      <p class="card-text">
-                        
-                        <a href="upi://pay?pa=banigama@airtel&pn=MIHIR KUMAR THAKUR&tn=Saraswati Pooja Chanda 2021" class="btn btn-warning upi-pay1">Pay By UPI - banigama@airtel</a>
-</p>
-                      
-                    </div>
-                  </div>
+                  <div class="card-body">
+                  <button class="btn btn-info" data-clipboard-text="banigama@airtel">
+                    UPI ID - <strong>banigama@airtel</strong> - Touch to copy
+                </button>
+            </div>
+                </div>
             </div>
 
             <div class="col-sm-4"></div>
@@ -75,5 +81,10 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+
+    <script>
+        new ClipboardJS('.btn');
+    </script>
+</body>
 </html>
